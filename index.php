@@ -2,7 +2,7 @@
 // Query params are: undefined 
 
 require_once dirname(__FILE__) . '/kclient.php';
-$client = new KClient('https://wealth-education.ru/', 'k8svqpfgwntykhkhgdy15nj2pp1gn1nw');
+$client = new KClient('https://wealth-education.ru/', '5phprvyslnvdxmpvfqpzdtjtdn3gz1ql');
 $client->sendAllParams();       // to send all params from page query
 $client->forceRedirectOffer();       // redirect to offer if an offer is chosen
 // $client->param('sub_id_5', '123'); // you can send any params
