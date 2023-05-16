@@ -7,6 +7,6 @@
     <title>Document</title>
   </head>
   <body>
-    Спасибо за заявку
+    <span>Спасибо за заявку</span>
   </body>
 </html>

@@ -1,186 +1,187 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <!-- basic -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- mobile metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+    <!-- site metas -->
      
     <title>Статьи</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" />
-    <!-- Google web font "Open Sans" -->
-    <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css" />
-    <!-- Font Awesome -->
+    <!-- bootstrap css -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- style css -->
     <link rel="stylesheet" href="css/style.css" />
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- fevicon -->
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" />
   </head>
+  <!-- body -->
 
-  <body>
-    <div class="container">
-      <section class="tm-section-head" id="top">
-        <header id="header" class="text-center tm-text-gray">
-          <h1>Аванпост Одиссея</h1>
-        </header>
-
-        <nav class="navbar narbar-light">
-          <a class="navbar-brand tm-text-gray" href="#"> </a>
-          <button
-            type="button"
-            id="nav-toggle"
-            class="navbar-toggler collapsed"
-            data-toggle="collapse"
-            data-target="#mainNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon">
-              <i class="fa fa-navicon tm-fa-toggler-icon"></i>
-            </span>
-          </button>
-          <div id="mainNav" class="collapse navbar-collapse tm-bg-white">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link tm-text-gray" href="index.php">Главная</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link tm-text-gray" href="blog.php">Статьи</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link tm-text-gray" href="contact.php">Контакты</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link tm-text-gray" href="privacy.php">Политика конфиденциальности</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link tm-text-gray" href="terms.php">Условия и положения</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-
-        <div class="navbar navbar-default navbar-fixed-top">
-          <a href="index.php" class="navbar-brand"></a>
-          <botton class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mydropdown">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </botton>
-        </div>
-
-        <div class="collapse navbar-collapse" id="mydropdown">
-          <ul class="nav navbar-nav">
-            <li><a href="index.php">Главная</a></li>
-            <li><a href="blog.php">Статьи</a></li>
-            <li><a href="contact.php">Контакты</a></li>
-            <li><a href="privacy.php">Политика конфиденциальности</a></li>
-            <li><a href="terms.php">Условия и положения</a></li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="row" id="tm-section-1">
-        <div class="col-lg-12 tm-slider-col">
-          <div class="tm-img-slider">
-            <div class="tm-img-slider-item">
-              <p class="tm-slider-caption">Статьи</p>
-              <img src="./assets/images/bulksplash-picsbyjameslee-uti8tqgkr1i.jpg" alt="Image" class="tm-slider-img" />
+  <body class="main-layout">
+    <!-- loader  -->
+    <div class="loader_bg">
+      <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+    </div>
+    <!-- end loader -->
+    <!-- header -->
+    <header id="home">
+      <!-- header inner -->
+      <div class="header">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+              <div class="full">
+                <div class="center-desk">
+                  <div class="logo">
+                    <a href="index.php">Мир путника</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+              <div class="menu-area">
+                <div class="limit-box">
+                  <nav class="main-menu">
+                    <ul class="menu-area-main">
+                      <li><a href="index.php">Главная</a></li>
+                      <li class="active"><a href="blog.php">Статьи</a></li>
+                      <li><a href="contact.php">Контакты</a></li>
+                      <li><a href="policy.php">Политика конфиденциальности</a></li>
+                      <li><a href="terms.php">Условия и положения</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+      <!-- end header inner -->
+    </header>
+    <!-- end header -->
 
-      <section class="tm-section-3 tm-section-mb" id="tm-section-3" style="margin-top: 50px">
+    <!-- section -->
+    <div id="blog" class="section dark_bg layout_padding right_white mt-5 mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="heading full text_align_center">
+              <h2 class="white_font full text_align_center">Статьи</h2>
+            </div>
+          </div>
+        </div>
         <div class="row">
           
-          <div class="col-md-6 tm-mb-sm-4 tm-2col-l">
-            <div class="image">
-              <img
-                src="./assets/images/bulksplash-picsbyjameslee-uti8tqgkr1i.jpg"
-                alt="img"
-                style="width: 100%; height: 240px; object-fit: cover"
-                class="img-fluid"
-              />
-            </div>
-            <div class="tm-box-3">
-              <h2>5 основных совет...</h2>
-              <p><strong></strong> Путешествие может быть захватывающим и полезным заняти...</p>
-              <div class="text-center">
-                <a href="e0d46c78b84ba9d17240f9556fa5d613.php" class="btn btn-big">Читать далее</a>
+          <div class="col-md-4 margin_top_30">
+            <div class="full" style="overflow: hidden">
+              <div class="full bl">
+                <img
+                  class="img-responsive"
+                  src="./assets/images/bulksplash-harleydavidson-bs1eqd6zsiu.jpg"
+                  alt="#"
+                  style="max-height: 200px; width: 100%; object-fit: cover"
+                />
+              </div>
+              <div class="full blog_blue text_align_center">
+                <h5 class="white_font">Важные советы путешественн...</h5>
+                <p><strong></strong>Путешествие в первый раз может быть как захватывающим, так и пугающим. Вы...</p>
+                <a class="main_bt" href="8A41LJzmnxoujQezOXbqT0hAomj24.php" style="width: 100%"
+                  >Читать далее</a
+                >
               </div>
             </div>
           </div>
           
 
-          <div class="col-md-6 tm-mb-sm-4 tm-2col-l">
-            <div class="image">
-              <img
-                src="./assets/images/bulksplash-randomlies-pgcqw1argyg.jpg"
-                alt="img"
-                style="width: 100%; height: 240px; object-fit: cover"
-                class="img-fluid"
-              />
-            </div>
-            <div class="tm-box-3">
-              <h2>Основные советы ...</h2>
-              <p><strong></strong> Путешествия - это увлекательное, но иногда стрессовое з...</p>
-              <div class="text-center">
-                <a href="de850cd1b96a54ea44a3a6426c8bc575.php" class="btn btn-big">Читать далее</a>
+          <div class="col-md-4 margin_top_30">
+            <div class="full" style="overflow: hidden">
+              <div class="full bl">
+                <img
+                  class="img-responsive"
+                  src="./assets/images/bulksplash-sanleesnaps-g9uimpd3fuw.jpg"
+                  alt="#"
+                  style="max-height: 200px; width: 100%; object-fit: cover"
+                />
+              </div>
+              <div class="full blog_blue text_align_center">
+                <h5 class="white_font">Основные советы путешестве...</h5>
+                <p><strong></strong> Планирование поездки может оказаться непростой задачей, особенно если ...</p>
+                <a class="main_bt" href="973862686a42fd2fd545b7e8ca802f3c.php" style="width: 100%"
+                  >Читать далее</a
+                >
               </div>
             </div>
           </div>
           
 
-          <div class="col-md-6 tm-mb-sm-4 tm-2col-l">
-            <div class="image">
-              <img
-                src="./assets/images/bulksplash-knipszimmer-w6ax4z6x_rs.jpg"
-                alt="img"
-                style="width: 100%; height: 240px; object-fit: cover"
-                class="img-fluid"
-              />
-            </div>
-            <div class="tm-box-3">
-              <h2>Основные советы ...</h2>
-              <p><strong></strong> Путешествие может быть веселым и захватывающим занятие...</p>
-              <div class="text-center">
-                <a href="a056a8098c9cc2accc57e5d19e1c92f9.php" class="btn btn-big">Читать далее</a>
+          <div class="col-md-4 margin_top_30">
+            <div class="full" style="overflow: hidden">
+              <div class="full bl">
+                <img
+                  class="img-responsive"
+                  src="./assets/images/bulksplash-1v4n4-ngzk9t20kou.jpg"
+                  alt="#"
+                  style="max-height: 200px; width: 100%; object-fit: cover"
+                />
+              </div>
+              <div class="full blog_blue text_align_center">
+                <h5 class="white_font">Важные советы путешественн...</h5>
+                <p><strong></strong>Путешествие может быть непростым опытом для начинающих, но при правильн...</p>
+                <a class="main_bt" href="60e87393eac585287d64d7ced596c266.php" style="width: 100%"
+                  >Читать далее</a
+                >
               </div>
             </div>
           </div>
           
 
-          <div class="col-md-6 tm-mb-sm-4 tm-2col-l">
-            <div class="image">
-              <img
-                src="./assets/images/bulksplash-andrewtneel-1-29wyvvlja.jpg"
-                alt="img"
-                style="width: 100%; height: 240px; object-fit: cover"
-                class="img-fluid"
-              />
-            </div>
-            <div class="tm-box-3">
-              <h2>Основные советы ...</h2>
-              <p><strong></strong> Путешествие может быть захватывающим и запоминающимся ...</p>
-              <div class="text-center">
-                <a href="CBosBz458yPnWxvSkv9OHuuBuGIh3.php" class="btn btn-big">Читать далее</a>
+          <div class="col-md-4 margin_top_30">
+            <div class="full" style="overflow: hidden">
+              <div class="full bl">
+                <img
+                  class="img-responsive"
+                  src="./assets/images/bulksplash-harleydavidson-repajhzt7ty.jpg"
+                  alt="#"
+                  style="max-height: 200px; width: 100%; object-fit: cover"
+                />
+              </div>
+              <div class="full blog_blue text_align_center">
+                <h5 class="white_font">Важные советы путешественн...</h5>
+                <p><strong></strong>Знакомство с миром может быть невероятно полезным занятием, но оно также...</p>
+                <a class="main_bt" href="pGPgMWbxmy.php" style="width: 100%"
+                  >Читать далее</a
+                >
               </div>
             </div>
           </div>
           
 
         </div>
-      </section>
-
-      <footer class="mt-5">
-        <p class="text-center">
-          ©
-          <script>
-            document.write(new Date().getFullYear());
-          </script>
-          Copyright
-        </p>
-      </footer>
+      </div>
     </div>
+    <!-- end section -->
+
+    <!-- footer -->
+    <footer>
+      <div class="copyright">
+        <div class="container">
+          <p>
+            ©
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            Copyright
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
 
     <div class="cookie-banner">
       <p style="color: #000000">
@@ -207,11 +208,15 @@
         elem.innerHTML = window.location.hostname;
       });
     </script>
-
-    <!-- load JS files -->
-    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <!-- Javascript files-->
+    <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/plugin.js"></script>
+
+    <!-- sidebar -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
   </body>
 </html>

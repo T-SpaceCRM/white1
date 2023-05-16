@@ -1,135 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <!-- basic -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- mobile metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+    <!-- site metas -->
      
     <title>Контакты</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" />
-    <!-- Google web font "Open Sans" -->
-    <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css" />
-    <!-- Font Awesome -->
+    <!-- bootstrap css -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- style css -->
     <link rel="stylesheet" href="css/style.css" />
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- fevicon -->
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" />
   </head>
+  <!-- body -->
 
-  <body>
-    <div class="container">
-      <section class="tm-section-head" id="top">
-        <header id="header" class="text-center tm-text-gray">
-          <h1>Прогулка пилигрима</h1>
-        </header>
-
-        <nav class="navbar narbar-light">
-          <a class="navbar-brand tm-text-gray" href="#"> </a>
-          <button
-            type="button"
-            id="nav-toggle"
-            class="navbar-toggler collapsed"
-            data-toggle="collapse"
-            data-target="#mainNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon">
-              <i class="fa fa-navicon tm-fa-toggler-icon"></i>
-            </span>
-          </button>
-          <div id="mainNav" class="collapse navbar-collapse tm-bg-white">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link tm-text-gray" href="index.php">Главная</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link tm-text-gray" href="blog.php">Статьи</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link tm-text-gray" href="contact.php">Контакты</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link tm-text-gray" href="privacy.php">Политика конфиденциальности</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link tm-text-gray" href="terms.php">Условия и положения</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-
-        <div class="navbar navbar-default navbar-fixed-top">
-          <a href="index.php" class="navbar-brand"></a>
-          <botton class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mydropdown">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </botton>
-        </div>
-
-        <div class="collapse navbar-collapse" id="mydropdown">
-          <ul class="nav navbar-nav">
-            <li><a href="index.php">Главная</a></li>
-            <li><a href="blog.php">Статьи</a></li>
-            <li><a href="contact.php">Контакты</a></li>
-            <li><a href="privacy.php">Политика конфиденциальности</a></li>
-            <li><a href="terms.php">Условия и положения</a></li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="row" id="tm-section-1">
-        <div class="col-lg-12 tm-slider-col">
-          <div class="tm-img-slider">
-            <div class="tm-img-slider-item">
-              <img src="./assets/images/bulksplash-picsbyjameslee-uti8tqgkr1i.jpg" alt="Image" class="tm-slider-img" />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="tm-section-6" id="tm-section-6">
-        <div class="row">
-          <div class="col-lg-7 col-md-7 col-xs-12">
-            <div class="contact_message">
-              <form action="" method="post" class="contact-form">
-                <div class="row mb-2">
-                  <div class="form-group col-xl-12 pl-xl-1">
-                    <input
-                      type="email"
-                      id="contact_email"
-                      name="contact_email"
-                      class="form-control"
-                      required
-                    />
+  <body class="main-layout">
+    <!-- loader  -->
+    <div class="loader_bg">
+      <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+    </div>
+    <!-- end loader -->
+    <!-- header -->
+    <header id="home">
+      <!-- header inner -->
+      <div class="header">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+              <div class="full">
+                <div class="center-desk">
+                  <div class="logo">
+                    <a href="index.php">Место проведения венчурного проекта</a>
                   </div>
                 </div>
-
-                <a href="thanks.php" class="btn tm-btn-submit float-right btn-big">
-                  Подписаться
-                </a>
-              </form>
+              </div>
             </div>
-          </div>
-
-          <div class="col-lg-5 col-md-5 col-xs-12 tm-contact-right">
-            <div class="tm-address-box">
-              <h2 class="mb-4">Контакты</h2>
-              <address>025997, Иркутская область, город Павловский Посад, пл. Гагарина, 28</address>
+            <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+              <div class="menu-area">
+                <div class="limit-box">
+                  <nav class="main-menu">
+                    <ul class="menu-area-main">
+                      <li><a href="index.php">Главная</a></li>
+                      <li><a href="blog.php">Статьи</a></li>
+                      <li class="active"><a href="contact.php">Контакты</a></li>
+                      <li><a href="policy.php">Политика конфиденциальности</a></li>
+                      <li><a href="terms.php">Условия и положения</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </section>
-      <footer class="mt-5">
-        <p class="text-center">
-          ©
-          <script>
-            document.write(new Date().getFullYear());
-          </script>
-          Copyright
-        </p>
-      </footer>
-    </div>
+      </div>
+      <!-- end header inner -->
+    </header>
+    <!-- end header -->
+
+    <!-- footer -->
+    <footer>
+      <div class="footer layout_padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+              <h3>Контакты</h3>
+              <p>155669, Омская область, город Воскресенск, пр. Сталина, 93</p>
+              <p>+6928289504387</p>
+              <p>immanuil.anisimov@narod.ru</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="container">
+          <p>
+            ©
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            Copyright
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
 
     <div class="cookie-banner">
       <p style="color: #000000">
@@ -156,11 +119,15 @@
         elem.innerHTML = window.location.hostname;
       });
     </script>
-
-    <!-- load JS files -->
-    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <!-- Javascript files-->
+    <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/plugin.js"></script>
+
+    <!-- sidebar -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
   </body>
 </html>
