@@ -39,7 +39,7 @@
               <div class="full">
                 <div class="center-desk">
                   <div class="logo">
-                    <a href="index.php">Путешествие треккера</a>
+                    <a href="index.php">Назад</a>
                   </div>
                 </div>
               </div>
