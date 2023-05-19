@@ -15,7 +15,7 @@
     <nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark" id="navbar">
       <div class="container">
         <!-- LOGO -->
-        <a class="navbar-brand logo" href="index.php"> Страна чудес путника </a>
+        <a class="navbar-brand logo" href="index.php"> Путь путника </a>
         <button
           class="navbar-toggler"
           type="button"
