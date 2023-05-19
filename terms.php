@@ -15,7 +15,6 @@
     <nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark" id="navbar">
       <div class="container">
         <!-- LOGO -->
-        <a class="navbar-brand logo" href="index.php"> Прогулка пилигрима </a>
         <button
           class="navbar-toggler"
           type="button"
