@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
      
-    <title>Главная</title>
+    <title>Статья</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="" name="keywords" />
     <meta content="" name="description" />
@@ -41,10 +41,10 @@
     ================================================== -->
     <!-- Hero -->
 
-    <section class="hero" style="background-image: url('./assets/images/bulksplash-pinkmarina-9bchjkanyzg.jpg')">
+    <section class="hero" style="background-image: url('./assets/images/bulksplash-knipszimmer-w6ax4z6x_rs.jpg')">
       <div class="container text-center">
         <div class="col-md-12">
-          <h1>Популярное</h1>
+          <h1>Статья</h1>
         </div>
       </div>
     </section>
@@ -54,7 +54,7 @@
     <header id="header">
       <div class="container" style="display: flex; justify-content: space-between">
         <div id="logo" class="pull-left">
-          <a href="index.php" style="color: #fff; font-size: 15px">Бродячая Рапсодия</a>
+          <a href="index.php" style="color: #fff; font-size: 15px">Первопроходец Треккинга</a>
         </div>
 
         <nav id="nav-menu-container">
@@ -75,117 +75,25 @@
 
     <section class="team" id="team">
       <div class="container">
-        <h2 class="text-center">Статьи</h2>
-        <div class="row">
-          
-          <div class="col-sm-3 col-xs-6">
-            <div class="card card-block">
-              <a href="nD0BijcFqRmeTC.php"
-                ><img alt="" class="team-img" src="./assets/images/bulksplash-pinkmarina-9bchjkanyzg.jpg" />
-                <div class="card-title-wrap">
-                  <span class="card-title">Основные советы путешестве...</span>
-                </div>
+        <div class="col">
+          <h3>Основные советы путешественникам для начинающих: как начать прямо сейчас</h3>
+          <p><strong></strong> Путешествие в первый раз может быть пугающим, но с помощью нескольких важных советов вы скоро почувствуете себя профессионалом. Вот несколько ключевых шагов, которые помогут вам начать свое путешествие: 
 
-                <div class="team-over">
-                  <nav class="social-nav">
-                    <a href="nD0BijcFqRmeTC.php">Читать далее</a>
-                  </nav>
-                </div>
-              </a>
-            </div>
-          </div>
-          
+1. Исследуйте свой пункт назначения – Узнайте о культуре, языке и обычаях вашего пункта назначения перед вылетом. Убедитесь, что вы понимаете, какой тип валюты используется в стране, куда вы путешествуете, и выясните, есть ли какие-либо предметы, которые нельзя ввозить в страну или которые требуют специальной документации. 
 
-          <div class="col-sm-3 col-xs-6">
-            <div class="card card-block">
-              <a href="rbNO3gIjDKYrERzcjkRUKYy7GH62g.php"
-                ><img alt="" class="team-img" src="./assets/images/bulksplash-knipszimmer-w6ax4z6x_rs.jpg" />
-                <div class="card-title-wrap">
-                  <span class="card-title">Основные советы путешестве...</span>
-                </div>
+2. Слегка упакуйте - Легкая упаковка значительно облегчит навигацию в незнакомых аэропортах. Не забудьте упаковать все необходимые документы, такие как паспорт, визу (если применимо), билеты и бронирование, а также любые другие важные бумаги или карточки в легкодоступном месте, чтобы они не потерялись во время вашего путешествия! 
 
-                <div class="team-over">
-                  <nav class="social-nav">
-                    <a href="rbNO3gIjDKYrERzcjkRUKYy7GH62g.php">Читать далее</a>
-                  </nav>
-                </div>
-              </a>
-            </div>
-          </div>
-          
+3. Планируйте заранее – Бронируйте авиабилеты заблаговременно, чтобы получить более выгодные предложения, и планируйте трансфер из аэропорта / железнодорожного вокзала / автовокзала по прибытии в город назначения. Если возможно, забронируйте проживание до прибытия в пункт назначения, чтобы было на одну вещь меньше, о чем нужно беспокоиться, когда вы прибудьте! 
+   4. Уважайте местные обычаи и культуру – Изучите местные обычаи и одевайтесь соответствующим образом при посещении мест поклонения или памятников; постарайтесь не оскорблять местных жителей незнанием их традиций! При этом также помните, что культурный обмен является частью того, почему мы путешествуем - принимайте новые впечатления без страха! 
 
-          <div class="col-sm-3 col-xs-6">
-            <div class="card card-block">
-              <a href="33f339e720f4ccb839bf51a4ab5b8c79.php"
-                ><img alt="" class="team-img" src="./assets/images/bulksplash-sadswim-3nca3tbae5i.jpg" />
-                <div class="card-title-wrap">
-                  <span class="card-title">7 основных советов путешественникам для начинающих</span>
-                </div>
+ 5 Оставайтесь на связи – при необходимости приобретите международную SIM-карту, чтобы оставаться на связи во время поездок за границу – это поможет избежать дорогостоящей платы за роуминг в зависимости от выбранного вами провайдера! Также рассмотрите возможность загрузки приложений, предоставляющих автономные карты, чтобы навигация не затруднена из-за неожиданного отсутствия Wi-Fi-соединения вокруг туристических точек доступа.   
 
-                <div class="team-over">
-                  <nav class="social-nav">
-                    <a href="33f339e720f4ccb839bf51a4ab5b8c79.php">Читать далее</a>
-                  </nav>
-                </div>
-              </a>
-            </div>
-          </div>
-          
-
-          <div class="col-sm-3 col-xs-6">
-            <div class="card card-block">
-              <a href="73315ce28bc4510a6ebc62daab1b1194.php"
-                ><img alt="" class="team-img" src="./assets/images/bulksplash-myfreeapps_com-1ix7s1zxg7u.jpg" />
-                <div class="card-title-wrap">
-                  <span class="card-title">Основные советы начинающим...</span>
-                </div>
-
-                <div class="team-over">
-                  <nav class="social-nav">
-                    <a href="73315ce28bc4510a6ebc62daab1b1194.php">Читать далее</a>
-                  </nav>
-                </div>
-              </a>
-            </div>
-          </div>
-          
-
+Теперь, когда у вас за плечами эти пять простых шагов, пришло время приключений! Bon Voyage!</p>
         </div>
       </div>
     </section>
     <!-- /Team -->
     <!-- @component: footer -->
-
-    <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <h2 class="section-title">Контакты</h2>
-          </div>
-        </div>
-
-        <div class="row justify-content-center">
-          <div class="col-lg-12 col-md-12">
-            <div class="info text-center">
-              <div>
-                <i class="fa fa-map-marker"></i>
-                <p>032436, Воронежская область, город Серебряные Пруды, спуск Чехова, 05</p>
-              </div>
-
-              <div>
-                <i class="fa fa-envelope"></i>
-                <p>ylian.denisova@rozkova.ru</p>
-              </div>
-
-              <div>
-                <i class="fa fa-phone"></i>
-                <p>+2327185059870</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <footer class="site-footer">
       <div class="bottom">

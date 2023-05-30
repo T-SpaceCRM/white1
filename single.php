@@ -1,171 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <!-- Required meta tags-->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Ora theme tempalte">
-    <meta name="author" content="NDT">
-    <meta name="keywords" content="Ora theme template">
-
-    <!-- Title Page-->
+  <head>
+    <meta charset="utf-8" />
      
-    <title>Первопроходец Треккинга</title>
+    <title>Статья</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
 
-    <!-- Fontfaces CSS-->
-    <link href="css/font-face.css" rel="stylesheet" media="all">
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" media="all">
-    <link href="vendor/linearicons-free/css/linearicons-free.css" rel="stylesheet" media="all">
-    <link href="vendor/elegant-icons/css/elegant-icons.css" rel="stylesheet" media="all">
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
 
-    <!-- Bootstrap CSS-->
-    <link href="vendor/bootstrap/bootstrap.min.css" rel="stylesheet" media="all">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="" />
 
-    <!-- Vendor CSS-->
-    <link href="vendor/animate.css/animate.min.css" rel="stylesheet" media="all">
-    <link href="vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
-    <link href="vendor/slick/slick.css" rel="stylesheet" media="all">
-    <link href="vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
-    <link href="vendor/lightbox/css/lightbox.min.css" rel="stylesheet" media="all">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:400,500,700|Roboto:400,900"
+      rel="stylesheet"
+    />
 
-    <!-- Main CSS-->
-    <link href="css/theme.css" rel="stylesheet" media="all">
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
+    <!-- Libraries CSS Files -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
 
-</head>
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-<body class="page-wrapper">
+  <body>
+    <!-- Page Content
+    ================================================== -->
+    <!-- Hero -->
 
-
-<header class="header">
-    <!-- header desktop-->
-    <div class="header-primary header-fixed d-lg-block d-none">
-        <div class="container-fluid">
-            <div class="section-inner header-bar">
-                <div class="header-bar-logo">
-                    <a style="font-size: 26px;font-weight: bold;" class="logo-link" href="index.php">
-                        Путь Профессионала
-                    </a>
-                </div>
-                <div class="header-bar-menu">
-                    <nav class="navbar-primary">
-                        <ul class="navbar-nav">
-                            <li class="nav-item dropdown"><a href="index.php" class="nav-link">Главная</a></li>
-                            <li class="nav-item dropdown"><a href="blog.php" class="nav-link">Статьи</a></li>
-                            <li class="nav-item dropdown"><a href="contact.php" class="nav-link">Контакты</a></li>
-                            <li class="nav-item dropdown"><a href="policy.php" class="nav-link">Политика конфиденциальности</a></li>
-                            <li class="nav-item"><a class="nav-link" href="terms.php">Условия и положения</a></li>
-                        </ul>
-                    </nav>
-                </div>
-
-            </div>
+    <section class="hero" style="background-image: url('./assets/images/bulksplash-pinkmarina-9bchjkanyzg.jpg')">
+      <div class="container text-center">
+        <div class="col-md-12">
+          <h1>Статья</h1>
         </div>
-    </div>
-    <!-- end header desktop-->
+      </div>
+    </section>
+    <!-- /Hero -->
 
-    <!-- header mobile-->
+    <!-- Header -->
+    <header id="header">
+      <div class="container" style="display: flex; justify-content: space-between">
+        <div id="logo" class="pull-left">
+          <a href="index.php" style="color: #fff; font-size: 15px">Маршрут роуминга</a>
+        </div>
 
-    <!-- end header mobile-->
-</header>
+        <nav id="nav-menu-container">
+          <ul class="nav-menu">
+            <li><a href="index.php">Главная</a></li>
+            <li><a href="blog.php">Статьи</a></li>
+            <li><a href="contact.php">Контакты</a></li>
+            <li><a href="policy.php">Политика конфиденциальности</a></li>
+            <li><a href="terms.php">Условия и положения</a></li>
+          </ul>
+        </nav>
+        <!-- #nav-menu-container -->
+      </div>
+    </header>
+    <!-- #header -->
 
-<!-- Heading page-->
+    <!-- Team -->
 
-<!-- end heading page-->
-<main class="page-two-col bg-white">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <section class="section-blog-wide-list page-col-one">
-                    <div class="blog-wide-list p-t-100 p-b-135">
+    <section class="team" id="team">
+      <div class="container">
+        <div class="col">
+          <h3>Основные советы путешественникам для начинающих: как извлечь максимум пользы из своего путешествия</h3>
+          <p><strong></strong> Путешествие в первый раз может быть как захватывающим, так и пугающим. Чтобы ваше путешествие было как можно более приятным, вот несколько важных советов, которые помогут вам извлечь из него максимум пользы. 
 
-                        <article class="box-blog-wide">
-                            <header class="bw-header m-b-30">
-                                <h3 class="bw-title">
-                                    Основные советы путешественникам для начинающих: как извлечь максимум пользы из своего путешествия
-                                </h3>
+Во-первых, планируйте заранее! Это означает изучение мест назначения и мероприятий перед поездкой, предварительное бронирование жилья, если это необходимо, и проверку актуальности всех документов (например, паспорта). Кроме того, составьте бюджет, чтобы знать, сколько денег у вас есть в наличии для расходов во время поездки. 
 
-                            </header>
-                            <figure >
-
-                                    <img style="width: 100%;height: 375px;" class="img-fluid" src="./assets/images/bulksplash-coffeeguy77-bmwqiwm-x5s.jpg">
-
-                            </figure>
-                           <p>
-                               <strong></strong> Путешествия могут стать отличным способом познакомиться с новыми местами, культурами и впечатлениями. Независимо от того, планируете ли вы свою первую поездку или являетесь опытным путешественником, есть несколько важных советов, которые помогут вам извлечь максимум пользы из вашего путешествия. 
-
-Планирование заранее является ключом к любому успешному отпуску. Изучение направлений и составление маршрута с мероприятиями поможет вам не упустить ничего важного. Также подумайте о составлении бюджета на питание, транспорт и другие расходы, прежде чем выходить из дома, чтобы вы знали чего ожидать во время путешествия. 
-
-Упаковывайте легко, но с умом, беря с собой только действительно необходимые вещи, оставляя при этом место в вашем чемодане для сувениров и неожиданных находок в пути. Обязательно оставьте копии важных документов, таких как паспорта, дома на случай, если они будут потеряны или украдены во время поездки. Не забудьте при необходимости взять с собой универсальный штекер-адаптер! 
+Далее, упаковывайте вещи легко, но с умом; берите с собой только то, что абсолютно необходимо, плюс несколько удобных предметов, таких как одежда или книги, чтобы развлечь себя в длительных путешествиях. Также не забудьте проверить прогноз погоды в пункте назначения перед упаковкой – так вы не окажетесь неподготовленными к неожиданному понижению или повышению температуры! 
   
-Будьте в безопасности, будучи в курсе местных законов и обычаев, куда бы вы ни отправились - это включает в себя знание того, сколько денег приемлемо потратить в определенных районах, а также избегание опасных ситуаций, таких как прогулка в одиночестве поздно вечером в ночью или оставлять ценные вещи без присмотра в общественных местах. Быть в курсе текущих событий также гарантирует, что путешественники будут проинформированы о потенциальных рисках, связанных со страной / регионом назначения, до времени вылета. 
+В–третьих, сохраняйте организованность, храня важные документы, такие как паспорта и билеты, в одном месте, где они не будут легко потеряны - папка с разделителями отлично подходит для этой цели! Кроме того, фотографируйте любые ценные предметы, такие как ювелирные изделия или электронику на случай, если они будут потеряны / украдены во время путешествия – эти фотографии могут помочь ускорить получение страховых выплат позже, если потребуется. 
 
-Наконец, помните, что путешествие должно доставлять удовольствие! Найдите время между осмотром достопримечательностей или длительными путешествиями, расслабившись с местными жителями за чашечкой кофе или ужином; эти впечатления часто дают уникальное представление о различных культурах, которого больше нигде нет!
-                           </p>
-                        </article>
-
-
-                    </div>
-                </section>
-            </div>
-
+Наконец — и, возможно, это самое главное — будьте в безопасности во время своих путешествий, избегая труднодоступных мест ночью и по возможности осведомляясь о местных законах / обычаях; это также помогает друзьям и семье точно знать, куда вы направляетесь каждый день, чтобы кто-нибудь всегда знал, где искать, если что-то случится по пути! В целом: При надлежащем планировании и заранее принятых мерах предосторожности путешественники могут быть уверены, что их поездки пройдут гладко от начала до конца.</p>
         </div>
-    </div>
-</main>
-<!-- footer-->
-<footer class="footer footer-primary bg-dark-2 p-t-30 p-b-30">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-6 fo-left">
-                <p class="fo-copy">@ 2017 All rights reserved</p>
-            </div>
+      </div>
+    </section>
+    <!-- /Team -->
+    <!-- @component: footer -->
 
+    <footer class="site-footer">
+      <div class="bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-xs-12 text-lg-left text-center">
+              <p class="copyright-text text-center">
+                ©
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                Copyright
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
+    </footer>
+    <a class="scrolltop" href="#"><span class="fa fa-angle-up"></span></a>
+
+    <div class="cookie-banner">
+      <p style="color: #000000">
+        Сайт использует файлы cookie. Они позволяют узнавать вас и получать информацию о вашем пользовательском опыте.Продолжая просмотр сайта, я соглашаюсь с использованием файлов cookie владельцем сайта в соответствии с
+        <a target="_blank" href="https://en.wikipedia.org/wiki/HTTP_cookie"
+          >Политикой cookie</a
+        >
+      </p>
+
+      <button class="close-cookie">×</button>
     </div>
-</footer>
-<!-- end footer-->
-<div class='cookie-banner'>
-    <p>
-        Сайт использует файлы cookie. Они позволяют узнавать вас и получать информацию о вашем пользовательском опыте.Продолжая просмотр сайта, я соглашаюсь с использованием файлов cookie владельцем сайта в соответствии с <a target="_blank" href="https://en.wikipedia.org/wiki/HTTP_cookie">Политикой cookie</a>
-    </p>
-    <button class='close-cookie'>&times;</button>
-</div>
-<script>
-    window.onload = function () {
+
+    <script>
+      window.onload = function () {
         $('.close-cookie').click(function () {
-            $('.cookie-banner').fadeOut();
-        })
-    }
-</script>
-<script>
-    let elems = document.querySelectorAll('.server-name');
-    elems.forEach((elem) => {
-        elem.innerHTML = window.location.hostname
-    })
-</script>
-<div id="up-to-top">
-    <i class="fa fa-angle-up"></i>
-</div>
-<!-- Jquery JS-->
-<script src="vendor/jquery/jquery.min.js"></script>
-<!-- Bootstrap JS-->
-<script src="vendor/popper.js/popper.min.js"></script>
-<script src="vendor/bootstrap/bootstrap.min.js"></script>
-<!-- Vendor JS-->
-<script src="vendor/slick/slick.min.js"></script>
-<script src="vendor/animsition/animsition.min.js"></script>
-<script src="vendor/waypoints/jquery.waypoints.min.js"></script>
-<script src="vendor/jquery.counterup/jquery.counterup.min.js"></script>
-<script src="vendor/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
-<script src="vendor/lightbox/js/lightbox.min.js"></script>
-<script src="vendor/isotope/isotope.pkgd.min.js"></script>
-<script src="vendor/wowjs/wow.min.js"></script>
+          $('.cookie-banner').fadeOut();
+        });
+      };
+    </script>
 
-<!-- Main JS-->
-<script src="js/global.js"></script>
+    <script>
+      let elems = document.querySelectorAll('.server-name');
+      elems.forEach((elem) => {
+        elem.innerHTML = window.location.hostname;
+      });
+    </script>
 
-</body>
+    <!-- Required JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/superfish/hoverIntent.js"></script>
+    <script src="lib/superfish/superfish.min.js"></script>
+    <script src="lib/tether/js/tether.min.js"></script>
+    <script src="lib/stellar/stellar.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/easing/easing.js"></script>
+    <script src="lib/stickyjs/sticky.js"></script>
+    <script src="lib/parallax/parallax.js"></script>
+    <script src="lib/lockfixed/lockfixed.min.js"></script>
 
+    <!-- Template Specisifc Custom Javascript File -->
+    <script src="js/custom.js"></script>
+  </body>
 </html>
-<!-- end document-->

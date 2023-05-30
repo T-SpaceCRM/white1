@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
      
-    <title>Главная</title>
+    <title>Статья</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="" name="keywords" />
     <meta content="" name="description" />
@@ -41,10 +41,10 @@
     ================================================== -->
     <!-- Hero -->
 
-    <section class="hero" style="background-image: url('./assets/images/bulksplash-pinkmarina-9bchjkanyzg.jpg')">
+    <section class="hero" style="background-image: url('./assets/images/bulksplash-myfreeapps_com-1ix7s1zxg7u.jpg')">
       <div class="container text-center">
         <div class="col-md-12">
-          <h1>Популярное</h1>
+          <h1>Статья</h1>
         </div>
       </div>
     </section>
@@ -54,7 +54,7 @@
     <header id="header">
       <div class="container" style="display: flex; justify-content: space-between">
         <div id="logo" class="pull-left">
-          <a href="index.php" style="color: #fff; font-size: 15px">Бродячая Рапсодия</a>
+          <a href="index.php" style="color: #fff; font-size: 15px">Одиссея Одиссея</a>
         </div>
 
         <nav id="nav-menu-container">
@@ -75,117 +75,24 @@
 
     <section class="team" id="team">
       <div class="container">
-        <h2 class="text-center">Статьи</h2>
-        <div class="row">
-          
-          <div class="col-sm-3 col-xs-6">
-            <div class="card card-block">
-              <a href="nD0BijcFqRmeTC.php"
-                ><img alt="" class="team-img" src="./assets/images/bulksplash-pinkmarina-9bchjkanyzg.jpg" />
-                <div class="card-title-wrap">
-                  <span class="card-title">Основные советы путешестве...</span>
-                </div>
+        <div class="col">
+          <h3>Основные советы начинающим путешественникам: как совершить путешествие без стресса</h3>
+          <p><strong></strong> Путешествие может быть захватывающим, но ошеломляющим опытом. Чтобы поездка прошла без стрессов, важно провести некоторые исследования и подготовиться перед отъездом. Вот несколько важных советов по путешествиям для начинающих, чтобы вы могли извлечь максимальную пользу из своего путешествия: 
 
-                <div class="team-over">
-                  <nav class="social-nav">
-                    <a href="nD0BijcFqRmeTC.php">Читать далее</a>
-                  </nav>
-                </div>
-              </a>
-            </div>
-          </div>
-          
+1) Исследуйте свой пункт назначения: Знание того, куда вы направляетесь, является ключевым во время путешествия. Ознакомьтесь с культурой, обычаями, законами и языком страны или города, чтобы вам было легче передвигаться. Обязательно также ознакомьтесь с мерами безопасности, такими как местные номера экстренных служб на случай, если что-то случится за границей. 
 
-          <div class="col-sm-3 col-xs-6">
-            <div class="card card-block">
-              <a href="rbNO3gIjDKYrERzcjkRUKYy7GH62g.php"
-                ><img alt="" class="team-img" src="./assets/images/bulksplash-knipszimmer-w6ax4z6x_rs.jpg" />
-                <div class="card-title-wrap">
-                  <span class="card-title">Основные советы путешестве...</span>
-                </div>
+2) Упаковывайте легко и с умом: легкая упаковка сэкономит не только деньги, но и время! Берите с собой только самое необходимое, например, универсальную одежду для разных случаев и занятий, а также туалетные принадлежности, которые не займут слишком много места. Также запомните все необходимые документы, такие как паспортные данные / визы и удостоверения личности, на случай, если они понадобятся при регистрации в аэропортах или отелях. 
 
-                <div class="team-over">
-                  <nav class="social-nav">
-                    <a href="rbNO3gIjDKYrERzcjkRUKYy7GH62g.php">Читать далее</a>
-                  </nav>
-                </div>
-              </a>
-            </div>
-          </div>
-          
+3) Получите туристическую страховку: это может показаться ненужным, но всегда рекомендуется оформить туристическую страховку, особенно если есть неожиданное событие, такое как отмена рейса из-за погодных условий или неотложной медицинской помощи, которые могут возникнуть во время вашей поездки. Этот тип полиса потенциально может покрывать расходы, связанные с этими мероприятиями, поэтому убедитесь, что он включен в ваш бюджетный план, прежде чем бронировать билеты или проживание..  
 
-          <div class="col-sm-3 col-xs-6">
-            <div class="card card-block">
-              <a href="33f339e720f4ccb839bf51a4ab5b8c79.php"
-                ><img alt="" class="team-img" src="./assets/images/bulksplash-sadswim-3nca3tbae5i.jpg" />
-                <div class="card-title-wrap">
-                  <span class="card-title">7 основных советов путешественникам для начинающих</span>
-                </div>
+4) Имейте план действий: Наличие плана действий позволит вам оставаться организованным на протяжении всего вашего путешествия, что значительно снизит уровень стресса! Убедитесь, что все детали транспортировки подтверждены заранее, включая маршруты из пункта А в пункт В, а также любые дополнительные остановки на способ, если применимо - это предотвратит путаницу при прибытии в пункты назначения после длительных перелетов и т.д.,  
 
-                <div class="team-over">
-                  <nav class="social-nav">
-                    <a href="33f339e720f4ccb839bf51a4ab5b8c79.php">Читать далее</a>
-                  </nav>
-                </div>
-              </a>
-            </div>
-          </div>
-          
-
-          <div class="col-sm-3 col-xs-6">
-            <div class="card card-block">
-              <a href="73315ce28bc4510a6ebc62daab1b1194.php"
-                ><img alt="" class="team-img" src="./assets/images/bulksplash-myfreeapps_com-1ix7s1zxg7u.jpg" />
-                <div class="card-title-wrap">
-                  <span class="card-title">Основные советы начинающим...</span>
-                </div>
-
-                <div class="team-over">
-                  <nav class="social-nav">
-                    <a href="73315ce28bc4510a6ebc62daab1b1194.php">Читать далее</a>
-                  </nav>
-                </div>
-              </a>
-            </div>
-          </div>
-          
-
+Следование этим важным советам поможет гарантировать плавное плавание под парусом, независимо от того, куда жизнь занесет вас в следующий раз! Bon voyage!</p>
         </div>
       </div>
     </section>
     <!-- /Team -->
     <!-- @component: footer -->
-
-    <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <h2 class="section-title">Контакты</h2>
-          </div>
-        </div>
-
-        <div class="row justify-content-center">
-          <div class="col-lg-12 col-md-12">
-            <div class="info text-center">
-              <div>
-                <i class="fa fa-map-marker"></i>
-                <p>032436, Воронежская область, город Серебряные Пруды, спуск Чехова, 05</p>
-              </div>
-
-              <div>
-                <i class="fa fa-envelope"></i>
-                <p>ylian.denisova@rozkova.ru</p>
-              </div>
-
-              <div>
-                <i class="fa fa-phone"></i>
-                <p>+2327185059870</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <footer class="site-footer">
       <div class="bottom">
