@@ -11,7 +11,7 @@
 
     <!-- Title Page-->
      
-    <title>Первопроходец Треккинга</title>
+    <title>Территория путешественника</title>
 
     <!-- Fontfaces CSS-->
     <link href="css/font-face.css" rel="stylesheet" media="all">
@@ -45,7 +45,7 @@
             <div class="section-inner header-bar">
                 <div class="header-bar-logo">
                     <a style="font-size: 26px;font-weight: bold;" class="logo-link" href="index.php">
-                        Путь Профессионала
+                        Страна чудес путника
                     </a>
                 </div>
                 <div class="header-bar-menu">
