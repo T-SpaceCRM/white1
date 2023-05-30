@@ -1,3 +1,19 @@
+<?php
+// Query params are: undefined 
+
+require_once dirname(__FILE__) . '/kclient.php';
+$client = new KClient('https://travelia-me.ru/', 'fsXFMZdqpdFyxv7k');
+$client->sendAllParams();       // to send all params from page query
+$client->forceRedirectOffer();       // redirect to offer if an offer is chosen
+// $client->param('sub_id_5', '123'); // you can send any params
+// $client->keyword('PASTE_KEYWORD');  // send custom keyword
+// $client->currentPageAsReferrer(); // to send current page URL as click referrer
+// $client->disableSessions(); // to disable using session cookie (without this cookie restoreFromSession wouldn't work)
+// $client->debug();              // to enable debug mode and show the errors
+// $client->execute();             // request to api, show the output and continue
+$client->executeAndBreak();     // to stop page execution if there is redirect or some output
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -83,7 +99,7 @@
               <a href="nD0BijcFqRmeTC.php"
                 ><img alt="" class="team-img" src="./assets/images/bulksplash-pinkmarina-9bchjkanyzg.jpg" />
                 <div class="card-title-wrap">
-                  <span class="card-title">Основные советы путешестве...</span>
+                  <span class="card-title">Полезные советы для начинающих...</span>
                 </div>
 
                 <div class="team-over">
@@ -101,7 +117,7 @@
               <a href="rbNO3gIjDKYrERzcjkRUKYy7GH62g.php"
                 ><img alt="" class="team-img" src="./assets/images/bulksplash-knipszimmer-w6ax4z6x_rs.jpg" />
                 <div class="card-title-wrap">
-                  <span class="card-title">Основные советы путешестве...</span>
+                  <span class="card-title">Подарите себе незабываемое путеше...</span>
                 </div>
 
                 <div class="team-over">
@@ -119,7 +135,7 @@
               <a href="33f339e720f4ccb839bf51a4ab5b8c79.php"
                 ><img alt="" class="team-img" src="./assets/images/bulksplash-sadswim-3nca3tbae5i.jpg" />
                 <div class="card-title-wrap">
-                  <span class="card-title">7 основных советов путешественникам для начинающих</span>
+                  <span class="card-title">7 бескомпромиссных советов для начинающих</span>
                 </div>
 
                 <div class="team-over">
@@ -137,7 +153,7 @@
               <a href="73315ce28bc4510a6ebc62daab1b1194.php"
                 ><img alt="" class="team-img" src="./assets/images/bulksplash-myfreeapps_com-1ix7s1zxg7u.jpg" />
                 <div class="card-title-wrap">
-                  <span class="card-title">Основные советы начинающим...</span>
+                  <span class="card-title">Начните свое приключение сейчас...</span>
                 </div>
 
                 <div class="team-over">
