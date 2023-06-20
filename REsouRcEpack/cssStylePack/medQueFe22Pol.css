@@ -1,0 +1,107 @@
+@media (max-width: 1372px){
+
+    .address, .mail, .phone {
+        font-size: 25px;
+    }
+}
+@media (max-width: 1199px){
+
+    .address, .mail, .phone {
+        font-size: 22px;
+    }
+    .primary-content-box{
+        flex-direction: column !important;
+    }
+    .content-wrap-text, .content-wrap-img{
+        width: 100%;
+    }
+    .head{
+        flex-direction: column !important;
+    }
+    .statistics{
+        flex-direction: column-reverse;
+    }
+    .back-hexa-opacity{
+        display: none;
+    }
+    .statistics .left, .statistics .right{
+        width: 100%;
+    }
+    .content-img{
+        max-width: 100% !important;
+    }
+    .primary-content-box{
+        gap: 40px;
+    }
+
+    
+}
+@media(max-width: 992px){
+    .dfgdfg1, .dfgdfg3{
+        flex-direction: column;
+    }
+    .dfgdfg2{
+        flex-direction: column-reverse;
+    }
+    .work-stages-item, .work-stages-img{
+        width: 75%;
+        text-align: center;
+    }
+    .contact-us{
+        flex-direction: column;
+    }
+    .content-wrap-text{
+        padding: 0;
+    }
+    .nav-wrap {
+        flex-direction: column;
+    }
+
+}
+@media(max-width: 767px){
+    .nav-wrap{
+        display: none;
+    }
+    .spesial-link{
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+}
+@media(max-width: 576px){
+    .main-title{
+        font-size: 30px;
+    }
+    button{
+        font-size: 16px !important;
+    }
+    .comment-box{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .stats-title, .work-stages-title, .content-title{
+        font-size: 26px;
+    }
+    .stats-text-second-title{
+        font-size: 18px;
+    }
+    .back-hexa{
+        display: none;
+    }
+    .left{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .stats-box{
+        width: 100%;
+        margin: 0;
+    }
+    .up-block, .down-block{
+        gap: 30px;
+        text-align: center;
+    }
+    .address-title, .mail-title, .phone-title{
+        font-size: 17px;
+    }
+
+}
