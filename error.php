@@ -23,7 +23,7 @@
     <div class="div-block-3">
       <div class="text-block">404</div>
       <div class="text-block-2">Упс, что-то пошло не так...<br>Запрашиваемой страницы не существует</div>
-      <a href="index.html" class="button w-button">Hа главную</a>
+      <a href="index.php" class="button w-button">Hа главную</a>
     </div>
   </section>
   <section class="section-2 wf-section">

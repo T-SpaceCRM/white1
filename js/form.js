@@ -36,7 +36,7 @@ form.addEventListener('submit', (event) => {
               window.location.href = `${fileThenk}${window.location.search}`;
              })
              .catch(() => {
-                const fileError = 'error.html'
+                const fileError = 'error.php'
                 window.location.href = `${fileError}${window.location.search}`;
              });
     }
